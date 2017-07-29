@@ -1,0 +1,25 @@
+{
+    "name": "falcon/gae-boostrap",
+    "description": "This is a boostrap, in order to enable RAD for google cloud platform php projects require a standard structure and still needs to respond fast",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+         }
+        },
+    "require": {
+        "klein/klein": "^2.1",
+        "google/cloud": "^0.35.0",
+        "google/gax": "dev-master",
+        "doctrine/dbal": "^2.5",
+        "symfony/yaml": "^3.4"
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Odusanya Victor Olukayode",
+            "email": "odusanya18@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
